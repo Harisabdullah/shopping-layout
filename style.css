@@ -297,6 +297,7 @@ body{
 	.offers{
 		flex-direction: column;
 		text-align: center;
+		font-size: 2vw;
 	}
 	.navbar{
 		flex-direction: column;
@@ -320,6 +321,9 @@ body{
 		font-size: 2.5vw;
 		padding: 9px 1.5vw;
 	}
+	.get-started-heading{
+		font-size: 3vw;
+	}
 	.get-started-heading p{
 		font-size: 5vw;
 	}
@@ -327,10 +331,23 @@ body{
 		font-size: 5vw;
 	}
 	.products > p{
-		font-size: 2.45vw;
+		font-size: 3.6vw;
+	    padding: 0 9vw;
+	    line-height: 1.1em;
+	}
+	.product-list p{
+		font-size: 3vw;
 	}
 	.product-list > div{
-		width: 50%;
+		width: 70%;
+	}
+	.product-list h3{
+		font-size: 4vw;
+		font-weight: 400;
+		line-height: 1em;
+	}
+	.product-list img{
+		height: 500px;
 	}
 	.g-s-f-1-1{
 		padding: 0 24%;
@@ -339,8 +356,13 @@ body{
 	.g-s-f-1-1 div{
 		margin-bottom: 10vh;
 	}
+	.g-s-f-1-1 h3{
+		font-size: 5vw;
+		font-weight: 100;
+		line-height: 1em;
+	}
 	.g-s-f-1-1 p{
-		font-size: 2.5vw;
+		font-size: 3vw;
 	}
 	.s-1-2-img{
 		display: none;
@@ -352,8 +374,17 @@ body{
 	.s-1-1-d{
 		margin: 96px 0;
 	}
-	.s-1-1-d .show-more-button{
-		margin-top: 54px;
+	.s-1-1-d h2{
+		font-size: 5vw;
+	}
+	.s-1-1-d img{
+		height: 14vw;
+	}
+	.s-1-1-d span{
+		font-size: 3.6vw;
+	}
+	.s-1-1-d p{
+		font-size: 2.7vw;
 	}
 	.s-2{
 		display: none;
@@ -361,11 +392,15 @@ body{
 	.f-1-c{
 		flex-direction: column;
 		align-items: center;
+		font-size: 3vw;
 	}
 	.f-1-c > div{
 		width: 100%;
 		text-align: center;
-		margin-bottom: 15vh;
+		margin-bottom: 15vw;
+	}
+	.f-1-c p{
+		font-size: 3vw;
 	}
 }
 
